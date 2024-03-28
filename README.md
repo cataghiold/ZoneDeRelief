@@ -1,5 +1,5 @@
 # ZoneDeRelief
-Cerință:
+Cerință
 Se dă o imagine cu zone de relief de formă dreptunghiulară având dimensiunile MxN. În imagine sunt notate cu etichete (numere pozitive) diferitele tipuri de zone (ex. 1=pășune, 2=pădure, 3=apa/lac 4=teren arabil, etc).
 
 Eticheta 0 reprezintă zone (în general) de delimitare care nu reprezintă importanță.
@@ -15,7 +15,7 @@ Dacă există mai multe răspunsuri similare, se va afișa primul în ordinea de
 
 Două suprafețe de același tip și dimensiuni diferite nu se pot atinge.
 
-Să se afișeze care este tipul de zonă cu cele mai multe suprafețe compacte (dreptunghiuri) și câte suprafețe sunt din acest tip.
+Să se afișeze câte tipuri de zone (etichete) există în imagine.
 
 Date de intrare:
 Pe pe prima linie dimensiunile matricei separate prin spațiu: M N
@@ -23,7 +23,7 @@ Pe pe prima linie dimensiunile matricei separate prin spațiu: M N
 Pe următoarele M linii câte N valori întregi pozitive reprezentând etichetele.
 
 Date de ieșire:
-Tipul de zonă cu cele mai multe suprafețe compacte (dreptunghiuri) și câte suprafețe sunt din acest tip.
+Câte tipuri de zone (etichete) există în imagine.
 
 Exemplu:
 
@@ -61,4 +61,4 @@ Date de intrare:
 
 Date de ieșire:
 
-2 3
+6
